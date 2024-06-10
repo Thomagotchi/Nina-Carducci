@@ -144,7 +144,7 @@
           index = i;
         }
       });
-      index = (index - 1) % imagesCollection.length;
+      index = (index - 1);
       next = imagesCollection[index] || imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
@@ -178,7 +178,7 @@
           index = i;
         }
       });
-      index = (index + 1) % imagesCollection.length;
+      index = (index + 1);
       next = imagesCollection[index] || imagesCollection[0];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
