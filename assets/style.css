@@ -97,7 +97,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 
 .title {
@@ -219,6 +219,11 @@ body {
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+}
+
+.carousel-item {
+	height: auto;
+	width: 100%;
 }
 
 #contact .container {
